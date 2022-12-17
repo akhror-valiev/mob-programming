@@ -9,25 +9,23 @@
 
 ## Challenge description
 
-### Basic Recursion
+### Binary Search
 
-You will be given a positive integer number . Fill in the method sum so that it adds up all the positive integers up to number and returns the sum.
-For example, when given 4 it should return 10 (4+3+2+1).
+The method sqrt takes in one square number. 
 
-While there are other ways to solve this challenge, you should use recursion to get the sum.
+Fill the method sqrt_recursive that returns the square root of a given number.
+Do not use any built in methods for calculating the square-root and don't try searching through all the numbers. Instead, use a binary-style search to home in on the actual square root. 
+(To make it simpler, the input will just contain square numbers.)
 
 #### Examples
 
 ```js
-console.log(sum(4))
-// => (4 + 3 + 2 + 1) = 10
+console.log(sqrt(25))
+// => 5
 
-console.log(sum(10))
-// => 55
+console.log(sqrt(7056))
+// => 84
 ```
-
-Get stuck and need some hint?
-Check this link: https://gitlab.com/microverse/guides/coding_challenges/hints/blob/master/challenges/recursion/basic-recursion.md
 
 
 ### Troubleshooting
